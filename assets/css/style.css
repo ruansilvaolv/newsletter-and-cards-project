@@ -57,6 +57,10 @@ header .container img{
   border: 1px solid white;
 }
 
+#checkbox-menu{
+  display: none;
+}
+
 /* MAIN */
 
 main{
