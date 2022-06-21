@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body{
+  font-family: 'Source Sans Pro', 'Times New Roman', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  margin: 20px 0px 30px 0px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  background-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transform: translateY(-2px);
+}
+
+section{
+  max-width: 960px;
+  margin: auto;
+  transform: translateY(-10px);
+}
+
+img{
+  width: 85%;
+  margin: 0 7%;
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px -4px black;
+  transition: all 0.6s ease 0s;
+  object-fit: contain;
+}
+
+img:hover{
+  transform: translateY(-7px);
+}
+
+.publication{
+  font-size: 14px;
+  margin: 0 0 0 11%;
+  color: #696a6a;
+}
+
+h1{
+  margin: 40px 0 25px 0;
+  font-size: 30px;
+}
+
+h4{
+  margin: 15px 0 15px 0;
+  font-size: 15px;
+}
+
+p{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+p:last-child{
+  padding-bottom: 100px;
+}
+
+h2{
+  margin: 40px 0 25px 0;
+  font-size: 30px;
+}
+
+.content-video{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  section{
+    padding: 0 20px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+  img{
+    min-height: 300px;
+    object-fit: cover;
+  }
+}
